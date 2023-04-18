@@ -1,0 +1,46 @@
+LEIA O CASO A SEGUIR E UTILIZE AS INFORMAÇÕES PARA RESPONDER AS QUESTÕES SUBSEQUENTES EM UM DOCUMENTO DE RESPOSTA.
+
+“Atualmente, a entrega de encomendas com drones tem se tornado uma realidade e nossa empresa de entregas, a PAPA LEGUAS, não pode ficar atrás dessa competição.
+O uso de drones torna as entregas mais rápidas, desobstrui o tráfego terrestre de veículos, reduz acidentes com entregadores e reduz os custos operacionais com mão-de-obra, combustível e manutenção de veículos.
+Segundo o dono da empresa de entregas que está determinando os requisitos de um novo projeto de sistema de entregas, o objetivo é desenvolver uma aplicação para definir rotas de deslocamento de drones que realizam entregas de correspondências.
+Como existem várias empresas operando com drones, queremos montar uma plataforma de aplicação que sirva para roteirizar os voos dos dispositivos, de forma a evitar que eles se choquem em voo, determinando a altitude de curso entre a origem e o destino.
+A aplicação deve ter uma plataforma de recebimento de pedidos de voos, usando uma interface de comunicação de dados determinado pela nossa empresa de desenvolvimento. As empresas que operam os drones, devem enviar seus dados de programação de entregas com data, horário, origem e destino para que a aplicação recepcione essas informações, processe e determine a altitude de voo, retornando essa informação para o operador de drone, via interface de comunicação de dados determinada pela nossa empresa.
+Devemos desenvolver também, aplicativos para Android e IoS (mobile) e uma aplicação na WEB para consumir os dados das rotas traçadas, permitindo que o operador do drone programe o voo adequadamente.
+Por fim, nossa empresa quer saber o número de programações de voos geradas em cada mês, por cliente/operador de drone,  para poder cobrar pelo serviço.
+Você é membro da equipe de desenvolvimento e será acompanhado pelo Jonathas, profissional que auxiliará a eliminar impedimentos do projeto e confirmará se você e demais membros do projeto estão seguindo as regras do SCRUM, processo que será usado no projeto.
+A empresa tem padrão para gerenciar e administrar a qualidade da condução de projetos. Ela usa o SCRUM com AZURE BOARDS no planejamento, acompanhamento e controle de projetos, bem como no gerenciamento de  seus requisitos e medição e resultados, e aplica GIT no controle de versões de documentos de projeto e contratos; mas você terá que definir as ferramentas de codificação, testes, integração de software que ela não têm padronizadas. Ela utiliza DataModeler para modelagem de bancos de dados e BizagiModeler para descrever os processos empresariais que serão atendidos pelas soluções de software; mas ainda não padronizou as ferramentas de desenho de arquitetura de solução nem de modelagem UML.
+Os drones são comprados e os contratos e compras são gerenciados em um sistema específico.
+A qualidade do cumprimento de planos e contratos é acompanhada.
+Em termos de concorrência de mercado, existe uma outra empresa que fornece solução de gerenciamento de entregas, muito reconhecida pelos relatórios gerenciais que fornece, os quais incluem mapas de calor de vendas, BI de produtos mais entregues e clientes mais ativos, além de um programa de bonificação para as empresas que mais demandam entregas, coisas que a PAPA LEGUAS não conseguirá fornecer em um primeiro momento. A grande desvantagem desse fornecedor é que ele não tem uma aplicação de front end para processar os pedidos – ele precisa que o cliente já tenha um software de gestão de pedidos para integrar.”.
+
+Responda em um documento WORD:
+a (peso 2) Um auditor da qualidade compareceu à empresa para uma avaliação. Conforme o CMMi, qual a classificação de nível de MATURIDADE (ABORDAGEM ESTAGIADA) da empresa que você acredita que o auditor vai apontar, em função das competências que a empresa apresenta? Justifique a resposta, observando o que cada nível/estágio do CMMi exige que seja praticado (nível gerenciado, definido, quantitativamente gerenciado, otimizado). 
+Exemplo de resposta esperada: “Se encontra no nível 5 – Otimização por já ter práticas definidas e difundidas entre os colaboradores para achar causas de problemas e ajustar práticas em função das análises estatísticas sobre processos atualmente praticados.”!
+
+b (peso 2) Quais atributos da qualidade segundo a ISO 9126 podem ser desenvolvidos pela PAPA LEGUAS para superar o concorrente que é forte nas funcionalidades de consulta e parcerias, as quais sua empresa não oferecerá de antemão? Em quais atributos da ISO você pode buscar diferenciação competitiva? Explique ao menos 3 características e 1 subcaracterística de cada uma dessas características escolhidas, onde você pode superar seu concorrente.
+Exemplo de resposta esperada (mostrando uma característica – lembre-se que são 3 que você deve fazer): “Confiabilidade, na subcaracterística de Tolerância a falhas, garantindo que xxx aconteça.”
+
+c (peso 2) Sua empresa está apresentando alguns problemas de desempenho na atividade de programação do aplicativo que estão preocupando. Percebe-se que dia a dia, a quantidade de Classes de objetos criadas por dia tem oscilado. Para entender o problema, você fez uma inspeção e coletou os seguintes dados sobre a quantidade de Classes de objetos criadas:
+Turno de trabalho	Dia 1	Dia 2	Dia 3	Dia 4
+Manhã
+Tarde
+Noite	10
+15
+16	12
+17
+7	11
+19
+14	12
+18
+13
+Como você vem inspecionando durante alguns meses, já sabe que em média, a empresa como um todo produz 16 Classes por dia com um desvio padrão (Sigma) de 2 unidades para mais ou para menos. Considerando que você vai controlar a produtividade da equipe usando Six Sigma (Seis sigma com limite de aceitação de variação de +3Sigma e -3 Sigma), monte o gráfico de controle da qualidade, criando as linhas de indicação de média e limites (superior e inferior) e traçando as curvas de comportamento dos três turnos.
+Exemplo de resposta esperada:
+ 
+
+d (peso 2) Quais turnos de trabalho merecem mais a sua atenção? Como trataria os problemas? Justifique a sua resposta, considerando o gráfico de controle que montou.
+Exemplo de resposta esperada: “O turno da xxx apresenta o comportamento yyy. Eu realizaria www para poder zzz..”
+
+e (peso 2) Ao terminar o seu documento de prova, gere um PDF e suba em um repositório GITHUB público, seu, numa Branch develop, dentro de uma pasta chamada “DocumentosCheckpoint”. De preferencia, faça as operações com o GIT Flow.
+
+Faça a entrega desse LINK via UPLOAD na área de entrega de trabalhos do portal da FIAP para que o seu professor faça a avaliação (opcionalmente você pode enviar um PDF com o link dentro).
+As notas e feedbacks do professor serão anotados na própria área de trabalhos corrigidos, no mesmo portal do aluno. Confira, assim que a sua nota for publicada.
